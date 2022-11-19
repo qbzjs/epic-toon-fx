@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Grass3dFull
+  m_Shader: {fileID: 4800000, guid: 7c2daa2573ca5524b885e2db2376918b, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - NO_DEBUG
+  - PHYSICS_FULL
+  - _CANTILT_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrassDepthTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BumpScale: 1
+    - _CanDeformUp: 0
+    - _CanTilt: 1
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _DstBlend: 0
+    - _GlossMapScale: 1
+    - _GlossStren: 0
+    - _Glossiness: 0.387
+    - _GlossyReflections: 1
+    - _GrassPhysicsOffset: 0
+    - _GrassTexEnlargement: 0.4
+    - _Metallic: 0
+    - _Mode: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpecularStren: 0
+    - _SrcBlend: 1
+    - _TargetsCount: 10
+    - _TargetsPos: 0
+    - _UVSec: 0
+    - _WaveInfluence: 0.222
+    - _WaveScale: 0.613
+    - _WaveSpeed: 0.566
+    - _ZWrite: 1
+    m_Colors:
+    - _Color: {r: 0.41456032, g: 0.6415094, b: 0.42588434, a: 1}
+    - _DisplacementLimits: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _GrassPhysicsAreaPos: {r: -81.25, g: -19.99754, b: -9.375, a: 0}
+    - _GrassPhysicsAreaSize: {r: 100, g: 40, b: 100, a: 0}
+    - _MovementLimits: {r: 0, g: 0.7, b: 0.25, a: 0}
+    - _SpecularColor: {r: 1, g: 1, b: 1, a: 1}
+    - _WavingTint: {r: 0.7, g: 0.6, b: 0.5, a: 0}
+  m_BuildTextureStacks: []

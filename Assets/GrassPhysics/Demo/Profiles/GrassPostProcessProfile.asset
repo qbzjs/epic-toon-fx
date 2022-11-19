@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7842793068927681384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68264fa837716d7449e48be0807e29ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recoverySpeed: 0.1
+  postProcessShader: {fileID: 4800000, guid: ad022e045d582d24d8665c288fd18588, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48ceb7ae26491184f8e590cff492cac9, type: 3}
+  m_Name: GrassPostProcessProfile
+  m_EditorClassIdentifier: 
+  postProcesses:
+  - {fileID: 637400319937986984}
+  - {fileID: -7842793068927681384}
+--- !u!114 &637400319937986984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38aa02aa3291a5c47b4804050f0f497c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recoverySpeed: 0
+  computeShader: {fileID: 7200000, guid: 04c3f56d7b72bad42bdd54f3a6bea6a7, type: 3}
+--- !u!114 &4947310227173578206
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af87c8f121129fd478788df9d1b540ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  A: 0
+  B: 0
+  C: 0
+--- !u!114 &5548343810089214558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af87c8f121129fd478788df9d1b540ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  A: 0
+  B: 0
+  C: 0
+--- !u!114 &7042960877039725377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68264fa837716d7449e48be0807e29ae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recoverySpeed: 0.12
+  postProcessShader: {fileID: 4800000, guid: ad022e045d582d24d8665c288fd18588, type: 3}

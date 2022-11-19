@@ -1,0 +1,17 @@
+﻿// Each #kernel tells which function to compile; you can have many kernels
+#pragma kernel GrassTrailUpdate
+
+float3 Movement;
+float RecoverySpeed;
+Texture2D<float> Input;
+Texture2D<float> PreviousState;
+RWTexture2D<float> Result;
+
+[numthreads(8,8,1)]
+void GrassTrailUpdate (uint3 id : SV_DispatchThreadID)
+{
+	float input = Input[id.xy];
+	int2 newUv = id.xy + int2(-Movement.x, Movement.z);
+	float prev = PreviousState[newUv];
+	Result[id.xy] = max(input, max(0, prev - Movement.y - RecoverySpeed));
+}

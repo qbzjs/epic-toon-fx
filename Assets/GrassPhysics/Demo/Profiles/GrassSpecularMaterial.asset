@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23171c2fd409c9147bff1653e2d62e67, type: 3}
+  m_Name: GrassSpecularMaterial
+  m_EditorClassIdentifier: 
+  grassTint: {r: 1, g: 1, b: 1, a: 1}
+  glossMap: {fileID: 2800000, guid: 1dcf4e59b738ec64280248af12d60078, type: 3}
+  glossStren: 0.4
+  specColor: {r: 1, g: 0.85476667, b: 0.6933962, a: 1}
+  specStren: 0.4

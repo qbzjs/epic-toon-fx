@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: b9f0328cc246ad543ac2e52d1c9259ee
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - deformShader: {fileID: 7200000, guid: 04c3f56d7b72bad42bdd54f3a6bea6a7, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

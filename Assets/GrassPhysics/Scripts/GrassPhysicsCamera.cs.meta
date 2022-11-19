@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 554cf9fb521372e48ab9d3765d8d68c3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - cam: {instanceID: 0}
+  - player: {instanceID: 0}
+  - computeShader: {fileID: 7200000, guid: 04c3f56d7b72bad42bdd54f3a6bea6a7, type: 3}
+  executionOrder: 0
+  icon: {fileID: 2800000, guid: 53eead518c24ad5498e8046bb771fcd1, type: 3}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
